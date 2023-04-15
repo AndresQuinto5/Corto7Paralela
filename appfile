@@ -1,2 +1,3 @@
 alias=mpi_local
-launch_cmd=mpirun -np 1 -host localhost ./master : -np 2 -host localhost ./worker
+launch_cmd=mpirun -np 1 -host localhost ./master : -np 3 -host localhost ./worker
+#si eso no funciona utiiiza: mpirun -np 1 master : -np 3 worker
