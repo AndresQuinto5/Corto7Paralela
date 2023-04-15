@@ -1,0 +1,2 @@
+alias=mpi_local
+launch_cmd=mpirun -np 1 -host localhost ./master : -np 2 -host localhost ./worker
